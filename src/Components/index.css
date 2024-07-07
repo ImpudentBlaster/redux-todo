@@ -1,0 +1,37 @@
+.css{
+    background-color: red;
+}
+.buttons{
+display: flex;
+gap: 0.5rem;
+}
+input {
+    padding: 0.5rem;
+    border:0;
+    border-radius: 1rem;
+    background-color: rgb(235, 235, 235);
+}
+button{
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: rgb(255, 150, 255);
+    border: 0;
+    border-radius: 1rem;
+}
+ul{
+    padding: 0;
+}
+li{
+    background-color: rgb(236, 230, 230);
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.list{
+    height: 100px;
+    overflow-y: scroll;
+    max-width: fit-content;
+}
